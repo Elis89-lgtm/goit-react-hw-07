@@ -1,0 +1,15 @@
+@import-normalize; /* bring in normalize.css styles */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  max-width: 400px;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
