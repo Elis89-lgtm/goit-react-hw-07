@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://6816344332debfe95dbdbe7a.mockapi.io/Contacts";
+export const API_URL = "https://6816344332debfe95dbdbe7a.mockapi.io/Contacts";
 
 export const fetchContacts = async () => {
   const response = await axios.get(API_URL);

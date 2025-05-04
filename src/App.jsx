@@ -18,7 +18,9 @@ const App = () => {
       <ContactForm />
       <h2>Contacts</h2>
       <SearchBox />
-      <ContactList />
+      <div className="contact-list-wrapper">
+        <ContactList />
+      </div>
     </div>
   );
 };
